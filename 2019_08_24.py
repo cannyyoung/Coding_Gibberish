@@ -19,7 +19,7 @@ for num in range(2,prob): # for all numbers that might be prime
         if num % n == 0: not_prime.append(num); break;
 prime = sorted(set(range(2,prob)) - set(not_prime))
 sol = [(num1,num2) for num1 in prime for num2 in prime if num1 + num2 == prob and num1<=num2]
-#it turns out that sol keeps repeats as well.. only one of (a,b) or (b,a) should be kept
+#the ifs allow filtering of repeats and gets two primes whose sum equals 'n'.
 print(sol) 
 
 #shortest solution of this found online: credit to whoever made this solution.'''
