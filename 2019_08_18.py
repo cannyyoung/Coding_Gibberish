@@ -5,6 +5,7 @@
 set_1 = set(list(range(5000)))
 L_1 = [str(x) for x in range(5000)]
 L_2 = []
+print('hello')
 for num  in L_1:
     number = 0
     for i in range(len(num)):
