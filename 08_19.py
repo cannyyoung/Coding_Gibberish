@@ -9,6 +9,7 @@ for num in all_num:
         ans[int(digit)] += num.count(digit)
 print(ans)
 
+print("hello world")
 #shortest answers found: (quite close this time)
 count = { x:0 for x in range(0,10)}
 for x in range(1,1001):
